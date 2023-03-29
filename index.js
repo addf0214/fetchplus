@@ -37,11 +37,4 @@ async function fetchPlus(url, options, retry = 0, interval = 1000, shouldRetry =
   throw new Error(`There was a problem with the fetch operation`);
 }
 
-const a = async () => {
-  const r = await fetchPlus("http://localhost:3000", {}, 3);
-  console.log(r)
-}
-
-a();
-
 exports.fetchPlus = fetchPlus;
