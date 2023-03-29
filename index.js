@@ -43,4 +43,5 @@ const a = async () => {
 }
 
 a();
-// module.exports = fetchPlus;
+
+exports.fetchPlus = fetchPlus;
