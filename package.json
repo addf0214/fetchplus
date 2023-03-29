@@ -1,0 +1,15 @@
+{
+  "name": "@slayerxj/fetchplus",
+  "version": "0.3.0",
+  "description": "FetchPlus is a JavaScript library that provides configurable retry logic for fetch() requests that have failed due to network issues or server errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch",
+    "retry"
+  ],
+  "author": "Allen Xiong",
+  "license": "MIT"
+}
